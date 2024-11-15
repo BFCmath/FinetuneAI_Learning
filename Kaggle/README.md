@@ -54,7 +54,7 @@ To enable GPU in your Kaggle notebook, follow these steps:
 Resource usage can be monitored in the top-right corner of the notebook.  
 ![Resource view](image/resources.png)
 
-### Working with Datasets
+## Working with Datasets
 
 - To use a dataset in your notebook, you first need to upload it to Kaggle.
 - Go to **Create > New Dataset** and upload your dataset. For large files, consider zipping them before uploading.
@@ -70,7 +70,7 @@ Resource usage can be monitored in the top-right corner of the notebook.
 
 - Once added, your dataset will be available in the `/kaggle/input` directory by default.
 
-### Saving and Accessing Outputs
+## Saving and Accessing Outputs
 
 - By default, any files or folders you download or create in the notebook are stored in `/kaggle/working` under **Output**.  
   ![Output tab](image/output_tab.png)  
@@ -91,13 +91,13 @@ Resource usage can be monitored in the top-right corner of the notebook.
 
 - *Note*: You can directly download smaller output files from the output tab in your notebook.
 
-### Fine-tuning on Kaggle
+## Fine-tuning on Kaggle
 
 - Locate a fine-tuning script for your model (either create one or find it on sources like Hugging Face).
 - Ensure the model and script fit within Kaggle’s available resources.
 - For Hugging Face models, you can check resource requirements in the model hub. For scripts from other sources, run them initially to estimate resource needs.
 
-#### When GPU Resources Are Insufficient
+### When GPU Resources Are Insufficient
 - Use resource-saving techniques like gradient accumulation, smaller batch sizes, and efficient memory management.
 - Available options include:
   - flash_attn 1.x
@@ -107,7 +107,7 @@ Resource usage can be monitored in the top-right corner of the notebook.
 - Clear unused variables and use `torch.cuda.empty_cache()` to manage memory.
 - If resources are still insufficient, try a smaller or alternate model.
 
-#### Fine-tuning Strategy on Kaggle
+### Fine-tuning Strategy on Kaggle
 
 - For large models, consider fine-tuning one epoch at a time. This approach helps conserve resources, allows you to monitor the training process, and reduces the risk of overfitting.
 - Here’s the process step-by-step:
@@ -136,7 +136,7 @@ Resource usage can be monitored in the top-right corner of the notebook.
   - In the notebook, click **Add Input**, select **Your Work > Notebooks**, and choose the previously committed notebook.
   - This allows you to access output files directly without creating a new dataset each time, although this method defaults to the latest version of the output files.
 
-### Helpful Tips
+## Helpful Tips
 
 - **Preserving Progress**: If you need to stop a running notebook but want to save progress, change **Persistence** to **Variables and Files** before stopping the notebook. This will save your variables and files for the next session.  
   ![Persistence](image/persistence.png)
