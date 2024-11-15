@@ -91,6 +91,8 @@ model.save('/content/drive/My Drive/your_folder/model.h5')
   5. **Inference with Colab**: Import the trained weights into Colab to perform inference on your test/validation datasets.
   6. **Fine-tune Small Models**: Colab can also be used to fine-tune smaller models entirely.
 ## Helpful Tips
-- Experiment with learning rates and batch sizes for small models using multiple Colab accounts.
-- Avoid losing progress due to GPU time limits by downloading weights after each epoch, either manually or automatically.
+- Try different learning rates and batch sizes for small models, utilizing multiple Colab accounts if needed to maximize experimentation.
+- Prevent progress loss due to GPU time limits by saving model weights after each epoch, either manually or through automated scripts.
+- Uploading data to Colab can be time-consuming, so plan your schedule to accommodate this step effectively.
+
 
