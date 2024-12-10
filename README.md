@@ -54,6 +54,12 @@ This repository serves as a record of my learning process and the insights I've 
 ### Fine-tuning on LLM (Large Language Models)
 For a detailed dive into my learnings, visit the [Fine-tuning on LLM](LLM) folder, where I’ve compiled notes and insights on fine-tuning large language models.
 
---- 
+---
 
 This repository will continue to grow as I learn more about fine-tuning AI models. Feel free to explore, learn, and contribute! 🚀
+
+## TODO
+
+- [ ] Paper Lora.
+- [ ] Paper QLora.
+- [ ] Blog about practical tips for Lora and QLora.
