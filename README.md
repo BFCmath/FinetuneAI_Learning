@@ -60,6 +60,7 @@ This repository will continue to grow as I learn more about fine-tuning AI model
 
 ## TODO
 
+- [ ] Survey on Instruction Tuning for LLM
 - [ ] Paper Lora.
 - [ ] Paper QLora.
 - [ ] Blog about practical tips for Lora and QLora.

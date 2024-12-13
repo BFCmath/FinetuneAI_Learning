@@ -7,12 +7,15 @@ This repository is geared toward those looking to minimize costs, so no need to 
 
 ## Getting Started with Kaggle
 ### Setting Up Kaggle
+
 1. **Create an Account**: Register for an account on Kaggle.
 2. **Identity Verification**:
    - Go to **Profile > Settings**.
    - Complete **Phone Verification** by adding and verifying your phone number.
    - Complete **Identity Verification** by scanning your face.
+
 ### Creating a New Notebook
+
 - Create your first notebook by selecting **Create > New Notebook**.
 - Kaggle notebooks support Jupyter-style shortcuts and magic commands.
 - Notebooks save automatically, and you can upload your own `.ipynb` files.
@@ -32,16 +35,17 @@ To enable GPU in your Kaggle notebook, follow these steps:
 
 ![Enable GPU in settings](image/enable_gpu_1.png)
 
-   - **Option 2**:
-     - Click the button in the lower right corner of your notebook interface.
-     - In **Session Options**, go to **Accelerator** and select **GPU**.
+- **Option 2**:
+  - Click the button in the lower right corner of your notebook interface.
+  - In **Session Options**, go to **Accelerator** and select **GPU**.
+
 <div style="display: flex; justify-content: space-between;background-color:grey;height:500px;">
     <img src="image/button.png" alt="view version" style="width: 30%; ; margin-left: 20px;">
     <img src="image/enable_gpu_2.png" alt="version history" style="width: 40%; height:70%; margin-right:50px">
 </div>
 
-
 ### Available Resources
+
 - **Accelerator Options**:
   - 2x GPU T4 (15GB each), GPU P100 (16GB), TPU VM v3-8
   - 30 hours per week, reset every Saturday
@@ -98,6 +102,7 @@ Resource usage can be monitored in the top-right corner of the notebook.
 - For Hugging Face models, you can check resource requirements in the model hub. For scripts from other sources, run them initially to estimate resource needs.
 
 ### When GPU Resources Are Insufficient
+
 - Use resource-saving techniques like gradient accumulation, smaller batch sizes, and efficient memory management.
 - Available options include:
   - flash_attn 1.x
