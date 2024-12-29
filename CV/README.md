@@ -15,5 +15,5 @@ I primarily use two frameworks for fine-tuning computer vision models:
 
 Detailed step-by-step guides for fine-tuning and transfer learning using these frameworks are available in the following notebooks:  
 
-- [TensorFlow Guide](CV/TensorFlow.ipynb)
-- [PyTorch Guide](CV/PyTorch.ipynb)
+- [TensorFlow Guide](CV/Tensorflow.ipynb)
+- [PyTorch Guide](CV/Pytorch.ipynb)
