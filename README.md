@@ -36,7 +36,7 @@ This repository serves as a record of my learning process and the insights I've 
 
 ---
 
-## Pretrained Models
+## Pretrained Models for LLM
 
 - **Platform**: [Hugging Face](https://huggingface.co/models)
 - **Details**:
@@ -51,9 +51,22 @@ This repository serves as a record of my learning process and the insights I've 
 
 ## Fine-tuning Techniques
 
-### Fine-tuning on LLM (Large Language Models)
+### Fine-tuning for LLM (Large Language Models)
 For a detailed dive into my learnings, visit the [Fine-tuning on LLM](LLM) folder, where I’ve compiled notes and insights on fine-tuning large language models.
 
---- 
+### Fine-tuning for CV (Computer Vision)
+For a detailed dive into my learnings, visit the [Fine-tuning on CV](CV) folder, where I’ve compiled notes and insights on fine-tuning computer vision models.
+
+---
+
+## TODO
+
+- [X] CV fine-tuning with Torch and TF.
+- [ ] CV yolo fine-tuning.
+- [ ] Survey on Instruction Tuning for LLM
+- [ ] Blog about practical tips for Lora and QLora.
+<!-- - [ ] Hugging face deep dive. -->
+
+---
 
 This repository will continue to grow as I learn more about fine-tuning AI models. Feel free to explore, learn, and contribute! 🚀
