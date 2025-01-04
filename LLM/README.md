@@ -12,4 +12,5 @@ You can check this awesome paper/book [The Ultimate Guide to Fine-Tuning LLMs fr
 
 ## TODO
 
+- [ ] TL;DR for Ultimate...Guide
 - [ ] InstructionTuningSurvey

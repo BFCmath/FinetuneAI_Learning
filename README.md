@@ -66,7 +66,7 @@ For a detailed dive into my learnings, visit the [Fine-tuning on CV](CV) folder,
 - [X] ADD README for LLM.
 - [ ] Finish TL;DR for LLM book.
 - [ ] Survey on Instruction Tuning for LLM
-- [ ] Blog about practical tips for Lora and QLora.
+<!-- - [ ] Blog about practical tips for Lora and QLora. -->
 <!-- - [ ] Hugging face deep dive. -->
 
 ---
