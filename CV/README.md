@@ -21,3 +21,7 @@ Detailed step-by-step guides for fine-tuning and transfer learning using these f
 ## YOLO
 
 You can check [Ultralytics notebook](Ultralytics.ipynb) to get more information about finetune YOLO models both using Python's library and command line.
+
+## TODO
+
+- [X] Add git clone way for Ultralytics notebook.
