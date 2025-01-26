@@ -15,9 +15,13 @@ I primarily use two frameworks for fine-tuning CNN-based models:
 
 Detailed step-by-step guides for fine-tuning and transfer learning using these frameworks are available in the following notebooks:  
 
-- [TensorFlow Guide](tensorflow.ipynb)
-- [PyTorch Guide](torch.ipynb)
+- [TensorFlow Guide](Tensorflow.ipynb)
+- [PyTorch Guide](Pytorch.ipynb)
 
 ## YOLO
 
-You can check [Ultralytics notebook](ultralytics.ipynb) to get more information about finetune YOLO models both using Python's library and command line.
+You can check [Ultralytics notebook](Ultralytics.ipynb) to get more information about finetune YOLO models both using Python's library and command line.
+
+---
+
+This repository is continuously updated to include new learnings and frameworks as I progress in my understanding of CV fine-tuning. Feedback and contributions are welcome!
