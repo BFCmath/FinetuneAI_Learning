@@ -71,7 +71,8 @@ Please check the [LLM script](scripts/llm/README.md) folder for detailed informa
 
 Beside the above sections, I also provide some other useful information for fine-tuning AI models that I have learned from reading cool papers, books, and blogs.
 
-Please check the [Others](others/README.md) folder for detailed information.
+Please check the [Others folder](others/README.md) for detailed information.
+
 ---
 
 This repository will continue to grow as I learn more about fine-tuning AI models. Feel free to explore, learn, and contribute! 🚀
