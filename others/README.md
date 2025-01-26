@@ -10,7 +10,6 @@ Currently, I only summarize and note down Fine-tuning techniques for LLMs withou
 
 You can check this awesome paper/book [The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs](papers\UltimateGuideFromBasicsToBreakthrough) to get more information about fine-tuning technique.
 
-## TODO
+Also check this one [Instruction Tuning Survey](papers/InstructionTuningSurvey) to understand more about Instruction Tuning.
 
-- [ ] TL;DR for Ultimate...Guide
-- [ ] InstructionTuningSurvey
+## Blogs 
