@@ -26,10 +26,8 @@ The two most popular platforms that offer free GPU resources are [Kaggle](https:
 - Although these platforms offer free GPU resources, they come with limitations (time, VRAM, etc.)
 - It's important to manage these resources efficiently to avoid interruptions during training.
 - Please check these below files for detailed information:
-  - [Use Kaggle for small models](kaggle/small_model.md)
-  - [Use Kaggle for large models](kaggle/large_model.md)
-  - [Use Colab for small models](colab/small_model.md)
-  - [Use Colab for large models](colab/large_model.md)
+  - [Use Kaggle for fine-tuning](kaggle/finetune.md)
+  - [Use Colab for fine-tuning](colab/finetune.md)
 
 - **TL;DR**:
   - [Kaggle](kaggle): 
@@ -39,13 +37,14 @@ The two most popular platforms that offer free GPU resources are [Kaggle](https:
   - [Colab](colab):
     - About 3 hours daily.
     - Many example scripts available.
+    - 1x 16 GB VRAM GPU. (T4)
   - Effective mix:
     - Load data on both platforms.
-    - Find avaible online scripts (usually written for Colab).
+    - Find avaibale online scripts (usually written for Colab).
     - Stablize/Debug/Estimate time on Colab.
     - Convert the scripts to Kaggle.
     - Fine-tune models on Kaggle.
-      - For large models: Run per epoch and use Kaggle advantage for output workflows. (check [Use Kaggle for large models](kaggle/large_model.md))
+      - For large models: Run per epoch and use Kaggle advantage for output workflows.
       - For small models: Use Colab to experiment (hyperparameter tuning, etc.) and fine-tune in one go on Kaggle.
     - Download weight from Kaggle, upload to Colab and inference (Optional).
 ---
@@ -61,9 +60,9 @@ Please check the [Computer vision script](scripts/cv/README.md) folder for detai
 
 **TL;DR**: I provide scripts for fine-tuning with Torch and TF, and YOLO with Ultralytics.
 
-### NLP tasks
+### LLM tasks
 
-Please check the [NLP script](scripts/llm/README.md) folder for detailed information.
+Please check the [LLM script](scripts/llm/README.md) folder for detailed information.
 
 **TL;DR**: I provide scripts for fine-tuning with Hugging Face.
 
