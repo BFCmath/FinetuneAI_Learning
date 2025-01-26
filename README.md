@@ -1,74 +1,78 @@
 # FinetuneAI_Learning
 
-Hey there! 👋 Welcome to my little corner of GitHub where I document my journey in learning how to fine-tune AI models.
+How to fine-tune AI models for undergraduates and beginners (with free GPU resources).
 
 ## Introduction
 
 This repository serves as a record of my learning process and the insights I've gained while studying the fine-tuning of AI models. The aim is to create a comprehensive resource that is easy to revisit and can help others understand and implement fine-tuning techniques.
+Especially, this aims to help no-local-GPU users to fine-tune AI models effectively with free GPU resources.
 
 ---
 
 ## Free GPU Resources
 
-- **Platforms**:
-  - [Kaggle](https://www.kaggle.com/)
-  - [Google Colab](https://colab.research.google.com/)
+In order to train AI models effectively, GPU is essential. However, not everyone has access to a local GPU or the resources to rent one. 
 
-- **Details**:
-  You can explore my folders on [Kaggle](Kaggle) and [Google Colab](Colab) for in-depth guidance on using these platforms.
+This section provides an overview of free GPU resources available on platforms like Kaggle and Google Colab, along with tips on how to manage these resources efficiently.
 
-- **TL;DR**:
-  - Kaggle and Colab provide **free GPU resources** for training AI models but within resource constraints. Efficient management is key.
-  - **Recommended Use Cases**:
-    - **Colab**:
-      - Ideal for **small models** and quick experiments.
-      - A wealth of **example usage scripts** are available.
-      - Best for **debugging** and stabilizing scripts, estimating resource needs.
-      - Convenient for **running inference** after fine-tuning.
-      - GPU time: approximately **3 hours daily**.
-    - **Kaggle**:
-      - Superior for **data workflows** (faster uploads and reusing fine-tuned weights).
-      - Offers **larger resources** compared to Colab.
-      - Suited for **fine-tuning large models** after stabilizing scripts on Colab.
-      - Excellent for **saving and sharing output files**.
-      - GPU time: approximately **30 hours weekly**.
-  - **Note**: Both platforms have limitations, so it's important to **manage resources efficiently**.
+### Platforms
+The two most popular platforms that offer free GPU resources are [Kaggle](https://www.kaggle.com/) and [Google Colab](https://colab.research.google.com/).
 
----
+### Getting Started
+- You can check my file: [Kaggle](kaggle/getting_started.md) or learn from the original guide.
+- You can check my file: [Google Colab](colab/getting_started.md) or learn from the original guide.
 
-## Pretrained Models for LLM
-
-- **Platform**: [Hugging Face](https://huggingface.co/models)
-- **Details**:
-  Check out my [Hugging Face](Hugging_Face) folder for detailed notes on leveraging this platform.
+### Effective Resource Management
+- Although these platforms offer free GPU resources, they come with limitations (time, VRAM, etc.)
+- It's important to manage these resources efficiently to avoid interruptions during training.
+- Please check these below files for detailed information:
+  - [Use Kaggle for small models](kaggle/small_model.md)
+  - [Use Kaggle for large models](kaggle/large_model.md)
+  - [Use Colab for small models](colab/small_model.md)
+  - [Use Colab for large models](colab/large_model.md)
 
 - **TL;DR**:
-  - Hugging Face provides a **vast collection of pre-trained models** for various AI tasks.
-  - The platform offers tools like the **Transformers library**, enabling seamless fine-tuning on custom datasets.
-  - Many models come with ready-to-use **fine-tuning** and **inference scripts**.
-
+  - [Kaggle](kaggle): 
+    - 30 hours weekly.
+    - Fast data/weight uploads and workflows.
+    - 1x 16 GB VRAM GPU or 2x 15 GB VRAM GPUs. (Tesla P100 or 2x T4).
+  - [Colab](colab):
+    - About 3 hours daily.
+    - Many example scripts available.
+  - Effective mix:
+    - Load data on both platforms.
+    - Find avaible online scripts (usually written for Colab).
+    - Stablize/Debug/Estimate time on Colab.
+    - Convert the scripts to Kaggle.
+    - Fine-tune models on Kaggle.
+      - For large models: Run per epoch and use Kaggle advantage for output workflows. (check [Use Kaggle for large models](kaggle/large_model.md))
+      - For small models: Use Colab to experiment (hyperparameter tuning, etc.) and fine-tune in one go on Kaggle.
+    - Download weight from Kaggle, upload to Colab and inference (Optional).
 ---
 
-## Fine-tuning Techniques
+## Script samples for fine-tuning
 
-### Fine-tuning for LLM (Large Language Models)
-For a detailed dive into my learnings, visit the [Fine-tuning on LLM](LLM) folder, where I’ve compiled notes and insights on fine-tuning large language models.
+Another problems besides the resource management is that there are not many scripts available for fine-tuning AI models. (You can find many scripts for inference, but not for fine-tuning from my experience.)
 
-### Fine-tuning for CV (Computer Vision)
-For a detailed dive into my learnings, visit the [Fine-tuning on CV](CV) folder, where I’ve compiled notes and insights on fine-tuning computer vision models.
+This section provides some fine-tune scripts for some AI tasks. 
+### Computer vision tasks
+
+Please check the [Computer vision script](scripts/cv/README.md) folder for detailed information.
+
+**TL;DR**: I provide scripts for fine-tuning with Torch and TF, and YOLO with Ultralytics.
+
+### NLP tasks
+
+Please check the [NLP script](scripts/llm/README.md) folder for detailed information.
+
+**TL;DR**: I provide scripts for fine-tuning with Hugging Face.
 
 ---
+## Others
 
-## TODO
+Beside the above sections, I also provide some other useful information for fine-tuning AI models that I have learned from reading cool papers, books, and blogs.
 
-- [X] CV fine-tuning with Torch and TF.
-- [X] Yolo - ultralytics.
-- [X] ADD README for LLM.
-- [ ] Finish TL;DR for LLM book.
-- [ ] Survey on Instruction Tuning for LLM
-<!-- - [ ] Blog about practical tips for Lora and QLora. -->
-<!-- - [ ] Hugging face deep dive. -->
-
+Please check the [Others](others/README.md) folder for detailed information.
 ---
 
 This repository will continue to grow as I learn more about fine-tuning AI models. Feel free to explore, learn, and contribute! 🚀
