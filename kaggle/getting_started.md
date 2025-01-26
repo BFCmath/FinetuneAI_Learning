@@ -98,10 +98,12 @@ If you want to use the output of your notebook as the input for the same noteboo
 
 2. **Add Input**: After the notebook has run successfully, click **Add Input** and select **Your Work > Notebooks**. Choose the notebook you just ran.
 Here is an example of how the notebook will look after running and adding the input:
+
 ![](image/getting_started_2025-01-27-00-28-01.png)
 
 3. **Access Output Files**: You can access the output files directly without creating a new dataset each time. However, this method defaults to the latest version of the output files.
 
 4. **Save as Dataset** (Alternative): 
 You can also save the output files as a dataset by clicking **New Dataset** in the **Output** tab. This will create a reusable dataset with the saved outputs.
+
 ![](image/getting_started_2025-01-27-00-29-40.png)
