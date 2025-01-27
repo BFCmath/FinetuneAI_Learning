@@ -12,4 +12,8 @@ You can check this awesome paper/book [The Ultimate Guide to Fine-Tuning LLMs fr
 
 Also check this one [Instruction Tuning Survey](papers/InstructionTuningSurvey) to understand more about Instruction Tuning.
 
-## Blogs 
+## Blogs
+
++ [X] [Insight From 100 Experiments](blogs\lora\insights_100_experiments.md) - Finetuning LLMs with LoRA and QLoRA: Insights from Hundreds of Experiments
++ [ ] [Advanced Guide to training a LoRA](blogs\lora\advancd_guide_lora.md) - Essential to Advanced Guide to training a LoRA
++ [ ] [Efficient Training on a Single GPU](blogs\efficient_training_huggingface.md) - Methods and tools for efficient training on a single GPU
