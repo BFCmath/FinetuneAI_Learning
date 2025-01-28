@@ -88,22 +88,29 @@ Resource usage can be monitored in the top-right corner of the notebook.
 
 - *Note*: You can directly download smaller output files from the output tab in your notebook.
 
-## Run All + Recurrent Workflow
+## Run All + Recurrent Workflow (**MUST READ**)
 
-If you want to use the output of your notebook as the input for the same notebook, follow these steps: 
+**Problem**: When using Colab, you need to download the output files (weights, logs, etc.) after each run, then reupload for the next run/training/inference. This can be time-consuming and inconvenient.
+
+**Solution**: Data (output) workflow in Kaggle is more efficient than Colab!!!
+
+**Details**:
+If you want to use the output of your notebook as the input for the same notebook, follow these steps:
 
 1. **Save and Run All**: Ensure your notebook runs successfully by using the **Save and Run All (Commit)** option. This will execute the notebook and save the outputs in one step. Remember to turn on the GPU before running the notebook.
 
-![](image/getting_started_2025-01-27-00-25-11.png)
+![a](image/getting_started_2025-01-27-00-25-11.png)
 
 2. **Add Input**: After the notebook has run successfully, click **Add Input** and select **Your Work > Notebooks**. Choose the notebook you just ran.
 Here is an example of how the notebook will look after running and adding the input:
 
-![](image/getting_started_2025-01-27-00-28-01.png)
+![a](image/getting_started_2025-01-27-00-28-01.png)
 
 3. **Access Output Files**: You can access the output files directly without creating a new dataset each time. However, this method defaults to the latest version of the output files.
 
-4. **Save as Dataset** (Alternative): 
+4. **Save as Dataset** (Alternative):
 You can also save the output files as a dataset by clicking **New Dataset** in the **Output** tab. This will create a reusable dataset with the saved outputs.
 
 ![](image/getting_started_2025-01-27-00-29-40.png)
+
+**NOTE**: This method is especially useful for recurrent workflows, such as training a model over multiple epochs or running multiple experiments with the same data. The time for saving outputs and notebooks is significantly reduced compared to Colab.

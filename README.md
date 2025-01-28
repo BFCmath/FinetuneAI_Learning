@@ -30,7 +30,7 @@ The two most popular platforms that offer free GPU resources are [Kaggle](https:
   - [Use Colab for fine-tuning](colab/finetune.md)
 
 - **TL;DR**:
-  - [Kaggle](kaggle): 
+  - [Kaggle](kaggle):
     - 30 hours weekly.
     - Fast data/weight uploads and workflows.
     - 1x 16 GB VRAM GPU or 2x 15 GB VRAM GPUs. (Tesla P100 or 2x T4).
@@ -44,9 +44,10 @@ The two most popular platforms that offer free GPU resources are [Kaggle](https:
     - Stablize/Debug/Estimate time on Colab.
     - Convert the scripts to Kaggle.
     - Fine-tune models on Kaggle.
-      - For large models: Run per epoch and use Kaggle advantage for output workflows.
+      - For large models: Run per epoch and use Kaggle advantage for output workflows ([MUST READ](kaggle/getting_started.md#run-all--recurrent-workflow)).
       - For small models: Use Colab to experiment (hyperparameter tuning, etc.) and fine-tune in one go on Kaggle.
     - Download weight from Kaggle, upload to Colab and inference (Optional).
+
 ---
 
 ## Script samples for fine-tuning
