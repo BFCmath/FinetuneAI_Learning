@@ -74,6 +74,11 @@ Beside the above sections, I also provide some other useful information for fine
 
 Please check the [Others folder](others/README.md) for detailed information.
 
+## TODO
+
+- [ ] add multi gpu training
+- [ ] add TPU training
+
 ---
 
 This repository will continue to grow as I learn more about fine-tuning AI models. Feel free to explore, learn, and contribute! 🚀
